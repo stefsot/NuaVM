@@ -24,8 +24,8 @@ Any contributors would be greatly appreciated.
             // it mainly allows for hooks and events to monitor and modify the lua execution
             var vm = new NuaVirtualMachine();
 
-            // register some .net functions into the 'environment' to access from lua
-            // "context" allows access to the current execution context
+            // register some .net functions into the 'environment' table to access from lua
+            // the "context" parameter allows access to the current execution context
             // "args" are the arguments the function was invoked with
             env.Set("print", new NuaFunction((context, args) =>
             {
