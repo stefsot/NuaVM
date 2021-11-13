@@ -52,6 +52,8 @@ namespace NuaVM.Types
                     return new NuaNumber((double)value);
                 case "Single":
                     return new NuaNumber((float)value);
+                case "Int64":
+                    return new NuaNumber((long)value);
                 case "Boolean":
                     return new NuaBoolean((bool)value);
                 default:
