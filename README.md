@@ -1,5 +1,5 @@
 # NuaVM
-## NuaVM is a Lua 5.2 runtime and interpreter written in C# with no external or native dependencies. It can be ued both all NET Core and NET framework versions to run raw lua binaries and bridge the lua and net world.
+## NuaVM is a Lua 5.2 runtime and interpreter written in C# with no external or native dependencies. It can be used in both NET Core and NET framework versions to run raw lua code and bridge the lua and net world.
 
 NuaVM currently only suppports execution of compiled Lua 5.2 bytecode and does NOT include a built-in lua compiler. You can download and use the official lua compiler (luac) from
 https://www.lua.org/ftp/ (make sure to download version 5.2). I plan on adding a compiler sometime in the future.
